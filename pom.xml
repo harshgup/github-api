@@ -38,7 +38,7 @@
     <spotbugs-maven-plugin.failOnError>true</spotbugs-maven-plugin.failOnError>
     <hamcrest.version>2.2</hamcrest.version>
     <okhttp3.version>4.4.0</okhttp3.version>
-    <okio.version>2.4.3</okio.version>
+    <okio.version>3.4.0</okio.version>
     <formatter-maven-plugin.goal>format</formatter-maven-plugin.goal>
     <impsort-maven-plugin.goal>sort</impsort-maven-plugin.goal>
     <!-- Using this as the minimum bar for code coverage.  Adding methods without covering them will fail this. -->
@@ -316,7 +316,7 @@
           <dependency>
             <groupId>org.apache.bcel</groupId>
             <artifactId>bcel</artifactId>
-            <version>6.4.1</version>
+            <version>6.6.0</version>
           </dependency>
         </dependencies>
       </plugin>
@@ -462,18 +462,18 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.13</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.10.2</version>
+      <version>2.12.7.1</version>
     </dependency>
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
-      <version>2.4</version>
+      <version>2.14.0</version>
     </dependency>
     <dependency>
       <groupId>com.infradna.tool</groupId>
@@ -511,7 +511,7 @@
     <dependency>
       <groupId>org.eclipse.jgit</groupId>
       <artifactId>org.eclipse.jgit</artifactId>
-      <version>5.6.1.202002131546-r</version>
+      <version>6.10.1.202505221210-r</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -561,13 +561,13 @@
     <dependency>
       <groupId>com.github.tomakehurst</groupId>
       <artifactId>wiremock-jre8-standalone</artifactId>
-      <version>2.26.0</version>
+      <version>2.35.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
-      <version>2.8.6</version>
+      <version>2.8.9</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
